@@ -1,1 +1,1 @@
-Mohon maaf, pada Pertemuan3 ada perubahan pada 1 file yaitu file alert.html yang sudah saya revisi sejak lama dan sekarang tidak sengaja perubahan ituikut ter-commit di pertemuan4 yang aslinya pertemuan3 sudah saya kumpulkan sudah dari lama.
+Mohon maaf, pada Pertemuan3 ada perubahan pada 1 file yaitu file alert.html yang sudah saya revisi sejak lama dan sekarang tidak sengaja perubahan itu ikut ter-commit di pertemuan4 yang aslinya pertemuan3 sudah saya kumpulkan sudah dari lama.
