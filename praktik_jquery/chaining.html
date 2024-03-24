@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="styleAnimate.css">
+    <script src="jquery-3.7.1.js"></script>
+    <script>
+        $(document).ready(function() {
+            $("button").click(function() {
+                $(".box")
+                .animate({width: "300px"}) // animasi untuk lebar
+                .animate({height: "300px"}) //animasi untuk tinggi
+                .animate({marginLeft: "150px"}) //animasi margin
+                .animate({borderWidth: "10px"}) //animasi border
+                .animate({opacity: 0.5})
+
+            })
+        })
+        // mengambil dari kelas animasi. lalu merubahnya perlahan menjadi besar ke arah kanan
+    </script>
+</head>
+<body>
+    <button type="button">Start Animation</button>
+    <div class="box"></div>
+</body>
+</html>

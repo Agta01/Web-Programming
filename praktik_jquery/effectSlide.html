@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <link rel="stylesheet" type="text/css" href="styleSlide.css">
+    <script src="jquery-3.7.1.js"></script>
+    <script>
+        $(document).ready(function() {
+            $("#flip").click(function() {
+                $("#kotak2").slideUp("slow");
+            });
+        });
+        // memebuat fungsi yang dimana ketika "klik untuk efek slide" dijalankan maka tampilan selamat pagi akan menghilang
+    </script>
+</head>
+<body>
+    <div id="flip">Klik untuk Efek Slide</div> <!-- dari id flip-->
+    <div id="kotak2">Selamat Pagi</div> <!-- dari id kotak2-->
+</body>
+</html>
