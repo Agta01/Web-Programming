@@ -62,7 +62,7 @@
                     $("#pass-system").text("");
                 }
 
-                //Soal 7.3 Penambahan Ajax Ajax
+                //Soal 7.3 Penambahan Ajax
                 if (valid) {
                     $.ajax({ 
                     url: "proses_validasi.php", //Sesuaikan nama file PHP
