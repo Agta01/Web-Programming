@@ -1,0 +1,56 @@
+body{
+    background: url("back3.jpeg") no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+h3 {
+    text-align: center;
+}
+
+.isi_konten {
+    align-content: center;
+    background-color: rgb(189, 210, 207);
+    padding: 20px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border: 2px solid black;
+    text-align: left;
+    width: 650px;
+    margin: 40px auto;
+    margin-top: 40px;
+}
+
+table {
+    border-collapse: collapse;
+    table-layout: fixed;
+    margin: auto;
+    border: 3px solid black;
+}
+
+th, td {
+    border: 3px solid black;
+}
+
+.upload {
+    padding: 3px 7px 3px 7px;
+    width: 600px;
+    max-height: 600px;
+}
+
+hr {
+    width: 650px ;
+    height: 20px ;
+    border: none;
+    border-top: 2px solid black;
+}
+
+.beriNilai {
+   padding: 7px 15px;
+   color: rgb(0, 0, 0);
+   border: 2px solid rgb(0, 0, 0);
+   border-radius: 3px;
+   font-size: 15px;
+   font-style: oblique;
+   margin-left: 40%;
+}

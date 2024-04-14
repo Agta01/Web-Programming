@@ -1,0 +1,93 @@
+#flip {
+    padding: 3px;
+    text-align: center;
+    background-color: rgb(236, 133, 96);
+    border: solid 2px;
+    border-radius: 5px;
+}
+
+#efek_flip { 
+    padding: 45px;
+    text-align: left;
+    background-color: white ;
+    border: solid 5px;
+    border-radius: 5px;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+    width: 100%;  
+}
+
+th, td{
+    text-align: center;
+    padding: 10px;
+    border: 2px solid;
+    color: black;
+    background-color: white;
+}
+
+#time {
+    background-color: rgba(54, 103, 237, 0.977);
+    text-align: center;
+
+}
+h2 {
+    color: white;
+    text-align: center;
+    backdrop-filter: blur(20px);
+}
+h3{
+    font-size: 25px;
+    text-align: center;
+    font-style: oblique;
+}
+
+#flip2 {
+    padding: 3px;
+    text-align: center;
+    background-color: rgb(236, 133, 96);
+    border: solid 2px;
+    border-radius: 5    px;
+}
+
+#efek_flip2 {
+    padding: 45px;
+    text-align: left;
+    background:white;
+    border: solid 5px;
+    border-radius: 5px;
+}
+
+body{
+    background: url('motor.jpg');
+    background-position: center;
+    background-size: cover;
+}
+
+.data_cust {
+   background: whitesmoke;
+   width: 85%;
+   padding-top: 10px;
+   padding-left: 30px;
+   padding-right: 30px;
+   padding-bottom: 30px;
+   margin: 80px auto;
+   border-radius: 40px;
+   border: 2px solid black;
+   backdrop-filter: blur(20px);
+   font-size: 20px;
+}
+
+.data {
+    width: 90%;
+    height: 20px;
+    border-radius: 30px;
+}
+
+#submit-button {
+    padding: 25px 50px;
+    margin-left: 45%;
+    background-color: rgb(162, 235, 227);
+}
