@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--berfungsi untuk menyesuaikan tampilan web terhadap layar pengguna.-->
+    <title>Pengenalan Bootstrap</title>
+    <!--Menyisipkan Bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Menyisipkan Bootstrap JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <!--Penyesuaian ukuran konten dengan lebar layar-->
+    <div class="container">
+        <h2>Pengaturan Gambar pada Bootstrap</h2> <!--Judul dengan jenis header 2-->
+        <div class="row row-cols-1">
+             <!-- Kolom gambar pertama dengan kelas yang bernama "rounded" agar sudut gambar melengkung -->
+            <div class="col">
+                <img src="tower.jpeg" class="rounded" alt="gambar round">
+            </div>
+            <!-- Kolom gambar kedua dengan kelas yang bernama "rounded-circle" agar gambar berbentuk bulat -->
+            <div class="col">
+                <img src="tower.jpeg" class="rounded-circle" alt="gambar circle">
+            </div>
+            <!-- Kolom gambar ketiga dengan kelas yang bernama "img-thumbnail" agar gambar menjadi thumbnail -->
+            <div class="col">
+                <img src="tower.jpeg" class="img-thumbnail" alt="gambar thumbnail">
+            </div>
+            <!-- Kolom gambar keempat dengan kelas yang bernama "img-fluid" agar gambar responsif -->
+            <div class="col">
+                <img src="tower.jpeg" class="img-fluid" alt="gambar fluid">
+            </div>
+        </div>
+       
+    </div>
+</body>
+</html>

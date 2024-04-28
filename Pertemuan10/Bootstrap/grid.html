@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!--berfungsi untuk menyesuaikan tampilan web terhadap layar pengguna.-->
+    <title>Pengenalan Bootstrap</title>
+    <!--Menyisipkan Bootstrap-->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <!-- Menyisipkan Bootstrap JS -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</head>
+<body>
+    <!--Penyesuaian ukuran konten dengan lebar layar-->
+    <div class="container">
+        <!--Membuat dua kolom dengan lebar layar masing-masing 50% kanan-kiri -->
+        <div class="row">
+            <div class="col-md-6 bg-success">Column left 50%</div>
+            <div class="col-md-6 bg-warning">Column right 50%</div>
+        </div><hr>
+        <!--Membuat dua kolom dengan lebar layar 33.3% kiri dan kanan 66.6% -->
+        <div class="row">
+            <div class="col-md-4 bg-success">Column left 33.3%</div>
+            <div class="col-md-8 bg-warning">Column right 66.6%</div>
+        </div><hr>
+        <!--Membuat dua kolom dengan lebar layar 25%% kiri dan kanan 75% -->
+        <div class="row">
+            <div class="col-md-3 bg-success">Column left 25%</div>
+            <div class="col-md-9 bg-warning">Column right 75%</div>
+        </div><hr>
+        <!--Membuat dua kolom dengan lebar layar 33.3% kiri dan kanan 66.6% -->
+        <div class="row">
+            <div class="col-md-4 bg-success">Column left 33.3%</div>
+            <div class="col-md-8 bg-warning">Column right 66.6%</div>
+        </div><hr>
+        <!--Membuat tiga kolom dengan lebar layar 33.3% kiri, 33.3% tengah, dan kanan 33.3% -->
+        <div class="row">
+            <div class="col-md-4 bg-success">Column left 33.3%</div>
+            <div class="col-md-4 bg-warning">Column middle 33.3%</div>
+            <div class="col-md-4 bg-success">Column right 33.3%</div>
+        </div><hr>
+        <!--Membuat tiga kolom dengan lebar layar 25% kiri, 50% tengah, dan kanan 25% -->
+        <div class="row">
+            <div class="col-md-3 bg-success">Column left 25%</div>
+            <div class="col-md-6 bg-warning">Column middle 50%</div>
+            <div class="col-md-3 bg-success">Column right 25%</div>
+        </div><hr>
+    </div>
+</body>
+</html>
