@@ -1,0 +1,92 @@
+h1, h4 {
+    text-align: center;
+}
+
+.img_nav{
+    width: 55px;
+    height: 55px;
+}
+
+.img_foot{
+  margin-top: 10px;
+  margin-right: 30px;
+  margin-left: 30px;
+  width: 100px;
+  height: 100px;
+
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: blue;
+  }
+  
+  li {
+    float: right;
+  }
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 14px;
+    text-decoration: none;
+  }
+  li a b {
+    display: block;
+    color: yellow;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  li a:hover {
+    background-color: #111;
+    padding: 14px;
+  }
+
+.left {
+    float: left;
+    font-size: 20px;
+}
+.right {
+    float: right;
+}
+
+.bg{
+    background-image: url(img/polinema2.png);
+    background-repeat: no-repeat;
+    background-position: 0px -70px;
+    background-size: 100% 400%;
+}
+.top_bg{
+  background: transparent;
+  backdrop-filter: blur(3px);
+}
+.paragraf {
+    text-align: center;
+    background-color: white;
+}
+
+footer {
+  background-color: blue;
+  color: white;  
+}
+
+footer .horizontal-line {
+  margin-top: 20px;
+  border-top: 2px solid white;
+  width: 100%;
+}
+.container{
+  text-align: left;
+}
+
+.logo {
+ width: 30px;
+ height: 30px;
+ margin: 5px ;
+}
+
